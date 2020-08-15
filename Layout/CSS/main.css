@@ -1,0 +1,68 @@
+
+h1 {
+    margin: 20px 0;
+}
+
+h1 span {
+    color: rgb(236, 102, 13);
+}
+
+a {
+    color: #fff !important;
+    margin: 0 5px;
+}
+
+.headerTotalPosts {
+    padding-bottom: 20px;
+}
+
+.headerTotalMyPosts {
+    padding: 20px 0 0;
+}
+
+.user_posts_btns {
+    padding: 20px 0;
+}
+
+.user_welcome span {
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+.post_btns .user_logined, 
+.post_btns .user_unlogined {
+    margin: 40px 0;
+}
+
+/* ========= post ========= */
+
+.post {
+    border-radius: 10px;
+    border: none;
+    padding: 20px 20px 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgb(184, 181, 181);
+}
+
+.post p {
+    font-size: 19px;
+}
+
+.post .post_body {
+    padding: 10px 0; 
+}
+
+.post .post_footer {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.post .post_footer span {
+    color: rgb(236, 20, 13);
+    font-weight: bold;
+}
+
+textarea {
+    height: 150px !important;
+}
+
