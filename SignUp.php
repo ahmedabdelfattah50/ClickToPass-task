@@ -18,7 +18,11 @@
                         <h2 class='alert alert-success'>Success of Insertion the new user you will return to main page in 1s</h2>
                     </div>";
             header("Refresh:1; url=index.php");
+            
+            $values = $user_db->selectUser($email);
+            $userID = $values['id'];
             $user_session::setSessionItem('name', $name);
+            $user_session::setSessionItem('id', $userID);
         } else {
             echo "  <div class='container'>
                         <h2 class='alert alert-danger'>Sorry The passwords are not match</h2>
