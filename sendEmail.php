@@ -36,7 +36,6 @@ for($i = 0 ; $i < count($totalUsers) ; $i++) {
       
       // the differnce from the two dates in (days)
       $differInDays = floor($differDate / (60 * 60 *24));
-      echo $differInDays . "<br>";
       
       if($differInDays >= 7){         
          $SenderName    = "Ahmed Abdel-Fattah";   // my name who which the user show it in the mail
