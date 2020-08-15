@@ -86,7 +86,18 @@ for($i = 0 ; $i < count($totalUsers) ; $i++) {
          $mail->Subject = $subject;    // set Subject
          $mail->Body = $message;       // set body
          
-         $mail->send();  // sending the email
+         // sending the email
+         if($mail->send()){
+            echo "  <div class='container'>
+                        <h2 class='alert alert-success'>Success to send email to " . $userName . ", you will return to main page in 1s</h2>
+                    </div>";
+            header("Refresh:1; url=index.php");
+         } else {
+            echo "  <div class='container'>
+                        <h2 class='alert alert-success'>Failed to send email, you will return to main page in 1s</h2>
+                    </div>";
+            header("Refresh:1; url=index.php");
+         }
       }
    }        
 }
