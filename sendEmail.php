@@ -41,7 +41,7 @@ for($i = 0 ; $i < count($totalUsers) ; $i++) {
       if($differInDays >= 7){         
          $SenderName    = "Ahmed Abdel-Fattah";   // my name who which the user show it in the mail
          $SenderEmail   = "ahmedabdelfatah661540@gmail.com";   // my email
-         $myPasswordEmail ="ahmedabdo502017";      // my password of my email
+         $myPasswordEmail ="XXXXXXXXXXXXXXXX";      // my password of my email I put it as (X) value because it is my private password
          
          // the subject of the message
          $subject = "Click To Pass Don't post";       
